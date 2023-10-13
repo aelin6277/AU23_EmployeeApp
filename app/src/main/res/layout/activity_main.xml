@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/blue"
+        android:hint="@string/editTextName" />
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="@string/editTextAge"
+        android:textFontWeight="@integer/material_motion_duration_short_1"
+        android:background="@color/purple"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextOccupation"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="@string/editTextOccupation"
+        android:background="@color/pink"/>
+
+    <Button
+        android:id="@+id/addEmployeeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add employee"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/turquoise" />
+
+    <ListView
+        android:id="@+id/employeeListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/yellow" />
+</LinearLayout>

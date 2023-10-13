@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EmployeeApp</string>
+    <string name="editTextName">Name</string>
+    <string name="editTextAge">Age</string>
+    <string name="editTextOccupation">Occupation</string>
+    <string name="invalidAge">The age is invalid</string>
+    <string name="invalidInputs">The inputs are invalid</string>
+</resources>
