@@ -5,4 +5,5 @@
     <string name="editTextOccupation">Occupation</string>
     <string name="invalidAge">The age is invalid</string>
     <string name="invalidInputs">The inputs are invalid</string>
+    <string name="title">Employee Manager</string>
 </resources>
